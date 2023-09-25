@@ -1,0 +1,72 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.manager
+{
+    width: 100%;
+}
+.head
+{
+    background-color: gray;
+    color: white;
+    height: 150px;
+    width: 100%;
+    text-align: center;
+    line-height: 150px;
+    font-size: 32px;
+    font-family: sans-serif;
+}
+.main
+{
+    width: 100%;
+}
+.link
+{
+    height: 400px;
+    width: 20%;
+    background-color:lightgray;
+    float: left;
+}
+a
+{
+    padding-left: 20px;
+    top: 80px;
+    position: relative;
+}
+.content
+{   
+    background-color: white;
+    width: 80%;
+    height: 400px;
+    float: right;
+    text-align: left;
+    font-size: 22px;
+    
+}
+h4
+{
+    font-size: 42px;
+    padding-left: 25px;
+    padding-top: 25px;
+    font-weight: 100;
+}
+p
+{
+    padding-top: 15px;
+    padding-left: 25px;
+}
+.footer
+{   
+    width:100%;
+    height: 500px;
+    background-color: gray;
+    text-align: center;
+    color: white;
+    font-size: 22px;
+    line-height: 100px;
+    
+}
+

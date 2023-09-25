@@ -1,0 +1,49 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.main
+{
+    width: 60%;
+    height:500px;
+    margin: 5% auto;
+    display: grid;
+    grid-template-rows: 70px 150px 330px 70px;
+    grid-template-columns: repeat(3,200px) 1fr;
+    gap: 20px;
+}
+.header
+{
+    background-color: orangered;
+    grid-column:1/5 ;
+}
+.box1
+{
+    background-color: orangered;
+}
+.box2
+{
+    background-color: orangered;
+}
+.box3
+{
+    background-color: orangered;
+}
+.side
+{
+    background-color: orangered;
+    grid-column: 4/5;
+    grid-row: 2/4;
+}
+.cnt
+{
+    background-color: orangered;
+    grid-column: 1/4;
+}
+.footer
+{
+    background-color: orangered;
+    grid-column: 1/5;
+}
